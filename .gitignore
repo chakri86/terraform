@@ -1,0 +1,22 @@
+# Terraform downloaded files
+**/.terraform/*
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plans
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Crash and override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
